@@ -1,0 +1,72 @@
+{
+  "name": "kitchen",
+  "version": "2.4.1",
+  "homepage": ".",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "emoji-picker-react": "^3.2.4",
+    "global": "^4.4.0",
+    "is-empty": "^1.2.0",
+    "jwt-decode": "^3.0.0",
+    "prettier": "^2.6.2",
+    "react": "^16.13.1",
+    "react-color": "^2.19.3",
+    "react-dom": "^16.13.1",
+    "react-draggable": "^4.4.3",
+    "react-dropzone": "^11.3.1",
+    "react-expanding-textarea": "^2.2.3",
+    "react-hook-form": "^6.9.2",
+    "react-linear-gradient-picker": "^1.1.4",
+    "react-masonry-css": "^1.0.14",
+    "react-query": "^3.4.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.0"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ],
+    "coverageReporters": [
+      "text"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
+    "react-infinite-scroll-component": "^6.1.0"
+  }
+}
