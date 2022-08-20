@@ -147,7 +147,7 @@ const Nav = ({ num, searchRecipe }) => {
         {num !== 2 && (
           <>
             <StyleLink to="/search-recipe">
-              <Button type="button"> Base recipe</Button>
+              <Button type="button"> Base recipes</Button>
             </StyleLink>
             <Input type="text" placeholder="Search recipe" onKeyDown={handleSearchRecipe} />
           </>

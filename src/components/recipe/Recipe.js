@@ -5,6 +5,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Background from '../background/Background';
 import Nav from '../nav/Nav';
+import Loading from "../loading/Loading";
 
 const Container = styled.div`
   width: 80vw;
@@ -249,7 +250,7 @@ const Recipe = () => {
     return <h1>Something went wrong</h1>;
   }
   if (fetching) {
-    return <h1>Loading...</h1>;
+    return <Loading />;
   }
 
   return (

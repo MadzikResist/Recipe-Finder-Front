@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { useFetch } from '../../hooks/useFetch';
 import Loading from '../loading/Loading';
 import styled from 'styled-components';
 import { useHistory } from 'react-router-dom';
