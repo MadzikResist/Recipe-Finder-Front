@@ -16,7 +16,7 @@ export const useFetch = () => {
       const secureStorage = localStorage.getItem('secure_token');
       const { tokens: { access } = {} } = JSON.parse(secureStorage || '{}');
       setFetching(true);
-      const response = await fetch(`http://localhost:4000/v1/${url}`, {
+      const response = await fetch(`https://recipe-flnder.herokuapp.com/v1/${url}`, {
         method: 'POST',
         headers: access
           ? {
